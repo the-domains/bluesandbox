@@ -2,6 +2,7 @@ name: bluesandbox
 favicon: null
 layout_spectrum: 0.5029083380941302
 typography_spectrum: 0.7382018463686109
+title: Blue Cat Sandbox
 cta:
   domain: null
   bucket: null
