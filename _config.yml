@@ -1,29 +1,41 @@
-name: bluesandbox
-favicon: null
-layout_spectrum: 0.5029083380941302
-typography_spectrum: 0.7382018463686109
 title: Blue Cat Sandbox
 cta:
-  domain: null
-  bucket: null
   version: null
+  bucket: null
+  domain: null
+layout_spectrum: 0.5029083380941302
+favicon: null
+name: bluesandbox
+purpose: []
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      navigable: true
+      path: /
+      number: 15
+      paginate: true
+    feed:
+      format: rss
+      path: /rss.xml
+      number: 10
+    permalink:
+      path: '/:title/'
 color:
-  brandColors:
-    - '#000000'
-    - '#b90000'
-    - '#e9a6a6'
-    - '#e28181'
-    - '#d75454'
   brandStrength: 0.1875
-  lightness: 0.11695757205598056
+  lightness: 0.1169575720559806
   saturation: 0.8125
   rhythmicContrast: 0.9063798543065786
-purpose: []
+  brandColors:
+    - '#FFFFFF'
+    - '#FFF7FF'
+    - '#512692'
+    - '#F2E9F6'
+    - '#8A70B1'
+typography_spectrum: 0.7382018463686109
